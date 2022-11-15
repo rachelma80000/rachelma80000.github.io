@@ -650,6 +650,10 @@ transition: background-color 0.5s ease-in-out;
   width: 100%;
 }
 
+#hp  {
+  float: left;    
+   margin: 0 15px 0 0;
+  }
 
 .single-facts {
   background: #fff none repeat scroll 0 0;
