@@ -214,8 +214,8 @@ nav .brand-logo img {
 .about-inner-right>p{
   color: #727272;
   font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 35px;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
 
@@ -2032,3 +2032,19 @@ textarea.materialize-textarea {
   .pagination li {width: 25px;margin: 0 5px;}
 
 }
+
+.section_title {
+  font-size: 2.92rem;
+  line-height: 1.612rem;
+  margin-top: 0.86rem!important; 
+  margin-bottom: 0.168rem!important; 
+ }
+ 
+.paragraph_title {
+  font-size: medium!important; 
+  line-height: 1.112rem!important; 
+  margin-top: 0.86rem!important; 
+  margin-bottom: 0.168rem!important; 
+  color:cornflowerblue !important; 
+  text-transform: capitalize!important; 
+ }
