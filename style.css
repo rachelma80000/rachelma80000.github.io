@@ -244,7 +244,7 @@ nav .brand-logo img {
 
 .personal-information ul li{
   border-bottom: 1px solid #eeeeee;
-  color: #727272;
+  color:black ;
   font-size: 15px;
   margin-bottom: 12px;
   padding-bottom: 12px;
@@ -291,7 +291,7 @@ nav .brand-logo img {
 
 
 .skill-inner p{
-  color: #727272;
+  color: black;
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
@@ -315,7 +315,7 @@ nav .brand-logo img {
 
 
 .skill-progress-bar span {
-  color: #727272;
+  color: black;
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
@@ -375,7 +375,7 @@ nav .brand-logo img {
 
 .experience-title {
   border-bottom: 1px solid #eee;
-  color: #727272;
+  color: black;
   font-size: 17px;
   font-weight: 400;
   line-height: 1.7;
@@ -399,13 +399,13 @@ nav .brand-logo img {
 
 
 .reveal-title {
-  color: #727272 !important;
+  color:black !important;
   font-size: 20px !important;
 }
 
 
 .experience-slider .card-reveal p {
-  color: #727272;
+  color: black;
   font-size: 15px;
   line-height: 25px;  
 }
@@ -685,7 +685,7 @@ transition: background-color 0.5s ease-in-out;
 
 .counter-text{
   display: block;
-  color: #727272;
+  color: black;
   font-size: 13px;
   text-transform: uppercase;
 }
@@ -931,7 +931,7 @@ transition: background-color 0.5s ease-in-out;
 .allpost-btn,
 .allpost-btn:hover{
   background-color: #fff;
-  color: #727272;
+  color: black;
   font-size: 14px;
   margin-top: 5px;
   padding-left: 20px;
