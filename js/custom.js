@@ -79,7 +79,7 @@ jQuery(function($){
 	/*  4. PORTFOLIO SLIDER
 	/* ----------------------------------------------------------- */
 
-	jQuery('#portfolio-list').mixItUp();	
+	/*jQuery('#portfolio-list').mixItUp();	*/
 
 	/* ----------------------------------------------------------- */
 	/*  5. COUNTER
