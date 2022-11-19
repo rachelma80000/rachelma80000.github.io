@@ -39,7 +39,9 @@ h6{
   font-family: "Roboto",sans-serif;
 }
 
-
+.item_text {
+  color:black !important;
+}
 .custom-nav li a{
   font-family: "Roboto",sans-serif;
   font-size: 14px;
