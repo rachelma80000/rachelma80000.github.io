@@ -42,6 +42,9 @@ h6{
 .item_text {
   color:black !important;
 }
+.highlight_text {
+  color:cornflowerblue !important;
+}
 .custom-nav li a{
   font-family: "Roboto",sans-serif;
   font-size: 14px;
