@@ -2090,7 +2090,7 @@ textarea.materialize-textarea {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .about-inner-left,
   .about-inner-right {
     float: none;
