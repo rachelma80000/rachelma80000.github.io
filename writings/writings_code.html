@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+  <html>
+    <head>  
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <title>Rachel Ma's Personal Website</title>
+
+       <!-- CSS  -->      
+      <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <!-- Font Awesome -->
+      <link href="../css/font-awesome.css" rel="stylesheet">
+      <!-- Owl Carousel -->
+      <link rel="stylesheet" href="../css/owl.carousel.css">
+      <!-- Default Theme CSS File-->
+      <link id="switcher" href="../css/themes/default-theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>     
+      <!-- Main css File -->
+      <link href="../style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+      <!-- Font -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+      <!-- BEGAIN PRELOADER -->         
+      <div id="preloader">        
+        <div class="progress">
+          <div class="indeterminate"></div>
+        </div>        
+      </div>
+      <!-- END PRELOADER -->
+      <div class="main-wrapper">
+        <main role="main">
+          <!-- START ABOUT SECTION -->
+          <section id="about">
+            <div class="container">
+              <div class="row">
+                
+                <div class="col s12">
+                  <div class="about-inner">
+                    
+                    <div class="row">
+                      <h4>RACHEL MA</h4>
+                      <nav class="topnav">
+                        <a href="../index.html">Home</a>
+                        <a href="../cs.html">Computer Science</a>
+                        <a href="../music.html">Music</a>
+                        <a class="active" href="../writings.html">Writings</a>
+                      </nav>
+                      <div class="col s12 m8 l9" style="margin: 1%;">
+                        <div class="about-inner-right">
+                          
+							
+                          
+						  <Table style="position: relative; Top: -10px;">
+						  <TR>
+						  
+              
+						  </TR>
+						  </Table>
+						  <h3 class="section_title">Code</h3>
+              <p class="item_text"></p>Author's note: this work has been edited so that personal information and names of friends have been removed/redacted. 
+
+            </p>     
+              <pre>
+                <code>
+from Rachel import memories, timetable
+
+
+print("Hello!") #output message string "Hello!"
+
+
+def __init__(self):
+   #constructor function to initialize properties of the class/object
+   self.name = "Rachel Ma"
+   self.height = 165 #cm or 5ft1'
+   self.age = (redacted)
+   self.birthday = (redacted) #month/day/year
+   self.nationality = "canadian"
+   self.dominant_hand = "left"
+   self.college = "brown"
+   self.year_college = "junior"
+   self.concentration = ["computer_science", "music"]
+   self.hobbies = ["reading", "composing", "chatting with friends"]
+   self.my_dorm = "Sears"
+   self.common_workspaces = ["CIT", self.my_dorm, "New_Dorm"]
+   self.class_timetable = {Monday: [(12, 1), (3, 5:30)], Wednesday: [(12, 1), (1,2), (3-5:30), (5:45-8:15)], Friday:[(12-1), (3-5)]} #dictionary where class times for each day are organized by keys (in this case, day of the week)
+   self.memories = [("Pears Taste Like Bananas", ["(redacted)", "(redacted)", "(redacted)"]), ("Harry Potter movie night", ["(redacted)"]), ("Ten One Tea Run", ["(redacted)"]), ..., ("Reading Percy Jackson", ["me"])] #unordered list of memories containing tuples (description, people)
+   self.favorite_memories = {1: ("Mafia and Charades game night", ["(redacted)", "(redacted)", "(redacted)", "(redacted)", "(redacted)", "(redacted)"]), 2: ("Main Trip", ["(redacted)", "(redacted)", "(redacted)", "(redacted)", "(redacted)", "(redacted)"]), 3: ("Senior Graduation Prank", ["Senior Class"]), 4: ("Old Town Road/O Canada Mashup", ["me"]), ..., }
+   self.friends = ["(redacted)", "(redacted)", "(redacted)", "(redacted)", ..., "(redacted)"]
+  
+def daily_routine():
+   #Function for my daily routine, function does not take in input arguments
+  
+   for day in range(Monday to Sunday): #loop through each day of the week
+       if (day == Monday or day == Wednesday or day == Friday): #if M,W,F do the following functions
+           wake_up(9) #wake up function that takes in
+          
+           if (day == Monday):
+               go_MTA_meeting(11, "CIT") #go to meeting at time 11am and location CIT
+               eat_lunch(12, "Ratty")
+           else: # if W,F
+               eat_lunch(11, "Ratty")
+          
+           go_to_class(self.timetable.get(day), ["CIT", "Orwig", "Page_Robinson"])
+           practice_music([1, 2], ["Orwig", "Steinert", "Morrison_Gerard"])
+           do_homework(self.common_workspaces)
+          
+           if (day == Wednesday):
+               eat_dinner(21, "Jos")
+           else: #if M,F
+               eat_dinner(18, "Ratty")
+          
+           if (day == Monday):
+               go_sorority_chapter(21, ["my_dorm", "Page_Robinson"])
+              
+           do_homework(self.common_workspaces)
+           go_sleep(1)
+          
+       else: #if T, Th, Sat, Sun do the following
+           wake_up(10)
+           do_homework(self.common_workspoaces)
+           eat_lunch(12, "Ratty")
+          
+           if (day == Tuesday):
+               go_HTA_grading(4, "CIT")
+               finish_HTA_grading(8)
+               eat_dinner(8, "Jos")
+              
+           if (day == Thursday):
+               do_robotics_research(1, "CIT")
+          
+           else: #if Sat or Sun
+               eat_dinner(18, "Ratty")
+              
+           do_homework(self.common_workspaces)
+           go_sleep(1)
+          
+   print("Wow my schedule is much more irregular than I thought!")
+
+
+
+
+def keep_memory(situation):
+   #function for storing memories, takes in an input situation which is a tuple (description, list of people)
+   description = situation[0]
+   people_list = situation[1]
+  
+   if meeting_someone_new(people_list) == True:
+       self.memories.append(situation) #add situation to list of memories
+      
+   elif good_memory(description, people_list) == True:
+       self.favorite_memories.append(situation) #add situation to favorite memories
+      
+   elif bad_situation_but_need_to_learn_from_it(description) == True:
+       self.memories.append(situation)
+  
+  
+
+
+def retrieve_memory(current_situation):
+   #function for retrieving memories and takes in an input situation with (description, people)
+   description = situation[0]
+   people_list = situation[1]
+  
+   if (chatting_with_friends() == True):
+       wholesome_memory = find_wholesome_memory(self.memories, people_list) #search through memories list for memories with people
+           print(wholesome_memory)
+          
+       if wholesome_memory == None: #if a wholesome memory could not be found
+           keep_memory(current_situation)
+          
+   if (teasing_friends() == True):
+       funny_memory = find_funny_memory(self.memories, people_list)
+           print(funny_memory)
+                </code>
+              </pre>
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Start Footer -->
+          <footer id="footer" role="contentinfo">
+            <!-- Start Footer Top -->
+            <div class="footer-top">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12">
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Start Footer Bottom -->
+            <div class="footer-bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12">
+                    <div class="footer-inner">
+                     <p class="design-info">Font styles from  <a href="http://www.markups.io/">MarkUps.io</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </main>
+      </div>
+      <!-- jQuery Library -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <!-- Materialize js -->
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+      <!-- Skill Progress Bar -->
+      <script src="../js/appear.min.js" type="text/javascript"></script>
+      <script src="../js/pro-bars.min.js" type="text/javascript"></script>
+      <!-- Owl slider -->      
+      <script src="../js/owl.carousel.min.js"></script>    
+      <!-- Mixit slider  -->
+      <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+      <!-- counter -->
+      <script src="../js/waypoints.min.js"></script>
+      <script src="../js/jquery.counterup.min.js"></script>     
+
+      <!-- Custom Js -->
+      <script src="../js/custom.js"></script>      
+    </body>
+  </html>
