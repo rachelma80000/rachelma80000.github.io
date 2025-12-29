@@ -2079,3 +2079,11 @@ textarea.materialize-textarea {
   background-color: #ba68c8;
   color: white;
 }
+
+@media (max-width: 600px) {
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
