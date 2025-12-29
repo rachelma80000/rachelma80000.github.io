@@ -2081,21 +2081,3 @@ textarea.materialize-textarea {
 }
 
 
-nav {
-  display: flex;
-  align-items: center;
-  height: auto;
-  min-height: 56px; /* keeps Materialize happy */
-}
-
-nav .brand-logo {
-  position: static;
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-nav .brand-logo img {
-  margin: 0;        /* 🔥 remove margin-top everywhere */
-  height: 40px;     /* or whatever you want */
-}
