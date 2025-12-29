@@ -2088,3 +2088,24 @@ textarea.materialize-textarea {
     font-size: 15px;
   }
 }
+
+
+@media (max-width: 767px) {
+  .about-inner-left,
+  .about-inner-right {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px auto;
+  }
+
+  .about-inner-right {
+    text-align: center;
+  }
+}
